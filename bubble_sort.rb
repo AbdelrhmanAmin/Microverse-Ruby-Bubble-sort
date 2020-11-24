@@ -1,5 +1,5 @@
 def bubble_sort(arr)
-  for bubble in (arr.length-1).downto(0)
+  for bubble in 0..(arr.length-1)
     for sorter in 0...((arr.length-1) - bubble )
       if arr[sorter] > arr[sorter+1]
         curr = arr[sorter] 
@@ -11,14 +11,14 @@ def bubble_sort(arr)
   return arr
 end
 
-result = bubble_sort([4,3,78,2,0,2]);
+result = bubble_sort([10, 9, 8, 6, 5, 4, 3, 2, 1])
 
 p result
-
-
+# output: [5, 6, 4, 7, 3, 8, 2, 9, 1, 10]
+# Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 def bubble_sort_by(arr)
-  for bubble in  (arr.length-1).downto(0)
+  for bubble in 0..(arr.length-1)
     for sorter in 0...((arr.length-1) - bubble)
        if yield(arr[sorter], arr[sorter+1]) > 0 
         curr = arr[sorter];
