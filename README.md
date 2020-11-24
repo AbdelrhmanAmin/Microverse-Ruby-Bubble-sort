@@ -1,7 +1,7 @@
 # Advanced Building Blocks - Bubble Sort
 
-Building bubble sort algorthim using Ruby for numbers and strings.
-In this project, the you will implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
+Building a bubble sort algorithm using Ruby for numbers and strings.
+In this project, you will implement the bubble sort algorithm. The assignment is focused on the use of yield and passing a block to a method.
 
 ## Built With
 
