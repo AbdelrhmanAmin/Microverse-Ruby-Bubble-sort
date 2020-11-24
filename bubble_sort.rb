@@ -13,7 +13,7 @@ end
 
 result = bubble_sort([10, 9, 8, 6, 5, 4, 3, 2, 1])
 
-p result
+puts "Bubble sort result: #{result}"
 # output: [5, 6, 4, 7, 3, 8, 2, 9, 1, 10]
 # Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -33,4 +33,4 @@ result2 = bubble_sort_by(["hi","hello","hey"]) do |left,right|
     left.length - right.length
 end
 
-p result2
+puts "Bubble sort by result: #{result}"
