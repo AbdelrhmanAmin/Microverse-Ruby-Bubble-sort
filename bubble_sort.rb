@@ -13,7 +13,6 @@ end
 
 ResultSort = bubble_sort([10, 9, 8, 6, 5, 4, 3, 2, 1])
 
-
 def bubble_sort_by(arr)
   (0..(arr.length - 1)).each do |bubble|
     (0...((arr.length - 1) - bubble)).each do |sorter|
@@ -29,4 +28,3 @@ end
 ResultSortBy = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
-
